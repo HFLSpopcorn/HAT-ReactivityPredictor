@@ -9,7 +9,7 @@
 
 1. Use quantum chemical software, such as Gaussian or Orca, to obtain optimized structures at the level of ***B3LYP/6-31+G(d,p)***.
 2. Perform single point energy calculation at the level of ***M06-2X/def2tzvpp*** with consideration of solvation energy correction of MeCN using SMD model. 
-3. 
+writing...
 
 
 # Contact Us
