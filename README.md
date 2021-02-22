@@ -2,14 +2,16 @@
 ### Demo of reactivity prediction of hydrogen atom transfer (HAT) reaction via machine learning
 
 # Requirements
->matplotlib=3.3.1
->numpy=1.19.2=pypi_0
->Orange=3.25.1
->pandas=1.1.1
->scipy=1.5.2=pypi_0
->seaborn=0.9.0
->sklearn=0.22.1
->xgboost=1.3.3=pypi_0
+    matplotlib=3.3.1
+    numpy=1.19.2=pypi_0
+    Orange=3.25.1
+    pandas=1.1.1
+    scipy=1.5.2=pypi_0
+    seaborn=0.9.0
+    sklearn=0.22.1
+    xgboost=1.3.3=pypi_0
+
+  - It is recommended to execute this project in a linux environment
 
 # How to use the model
 ## Step 1: Optimization of the structures of reactant and product molecules (substrates and HAT catalysts) and calculation of their property features
