@@ -2,28 +2,14 @@
 ### Demo of reactivity prediction of hydrogen atom transfer (HAT) reaction via machine learning
 
 # Requirements
-ase=3.18.0=pypi_0
-bidict=0.18.3=pypi_0
-dscribe=0.2.9=pypi_0
-joblib=0.13.2=py36_0
-matplotlib=3.1.2=pypi_0
-molml=0.9.0=pypi_0
-networkx=2.3=py_0
-numpy=1.19.2=pypi_0
-openbabel=3.0.0=py36h1360c68_0
-pandas=0.25.0=py36hb3f55d8_0
-pathlib=1.0.1=pypi_0
-pickleshare=0.7.5=py36_0
-pytorch=1.1.0=py3.6_cuda10.0.130_cudnn7.5.1_0
-rdkit=2019.03.2=py36hb31dc5d_1
-scikit-learn=0.22=pypi_0
-scipy=1.2.1=pypi_0
-seaborn=0.9.0=pypi_0
-torch-cluster=1.4.2=pypi_0
-torch-geometric=1.3.0=pypi_0
-torch-scatter=1.3.1=pypi_0
-torch-sparse=0.4.0=pypi_0
-xgboost=0.90=pypi_0
+>matplotlib=3.3.1
+>numpy=1.19.2=pypi_0
+>Orange=3.25.1
+>pandas=1.1.1
+>scipy=1.5.2=pypi_0
+>seaborn=0.9.0
+>sklearn=0.22.1
+>xgboost=1.3.3=pypi_0
 
 # How to use the model
 ## Step 1: Optimization of the structures of reactant and product molecules (substrates and HAT catalysts) and calculation of their property features
