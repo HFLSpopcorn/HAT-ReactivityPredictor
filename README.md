@@ -14,7 +14,7 @@
   - It is recommended to execute this project in a linux environment
 
 # How to use the model
-## Step 1: Optimization of the structures of reactant and product molecules (substrates and HAT catalysts) and calculation of their property features
+## Step 1: Optimization of the structures of reactant and product molecules (substrates and HAT radicals) and calculation of their property features
 
 **1. Get stable structure to do the feature calculation:** use quantum chemical software, such as Gaussian or Orca, to obtain optimized structures at the level of ***B3LYP/6-31+G(d,p)***. The C atoms to be considered for HAT reactivity may be numbered sequentially starting at 1 to facilitate the **3. Feature collection** step.
 
@@ -29,8 +29,6 @@
 **2. Test set preparation:** Test set should contain 56 features with specific order which is shown in **SampleTest-ExpCH.csv**.
 
 **3. Reactivity prediction:** Load the test set file (.csv) and get ML-predicted HAT barriers. Related codes are shown in **HAT-ReactivityPredictor.ipynb**.
-
-writing...
 
 
 # Contact Us
