@@ -31,5 +31,11 @@
 **3. Reactivity prediction:** Load the test set file (.csv) and get ML-predicted HAT barriers. Related codes are shown in **HAT-ReactivityPredictor.ipynb**.
 
 
+# Dataset availability
+The 2926 DFT-computed HAT reaction barriers used in training set is available in **TrainingSet-2926-SMILES.csv** with SMILES of corresponding reactants and products. Test sets and optimized cartesian coordinates are available in **DatasetandCartesianCoordinates.zip**.
+
+# How to cite
+If the dataset or HAT-ReactivityPredictor is used, please cite as: Li-Cheng Yang, Xin Li, Shuo-Qing Zhang and Xin Hong Org. Chem. Front., 2021, 8, 6187.
+
 # Contact Us
 Email: hxchem@zju.edu.cn; yanglicheng@zju.edu.cn 
